@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    overflow: hidden;
+}
+
+.bg-dark,.gallery{
+    background-color: black !important;
+}
+
+.danger{
+    color: red;
+}
+
+.header{
+    height: 100vh;
+}
+
+.my_carousel{
+    height: 100vh;
+}
+
+.myimg{
+    height: 100vh;
+}
+
+@media screen and (min-width:750px) {
+    .list>li{
+        width:32%;
+    }
+}
+
+.g_img:hover{
+    transform: scale(1.1);
+    transition: ease-out 0.4s;
+}
+
+.list{
+    /* display: flow-root; */
+    width: 100%;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.fa-facebook,.fa-twitter{
+    font-size: 35px;
+}

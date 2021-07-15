@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    overflow: hidden;
+}
+
+.bg-dark,.gallery{
+    background-color: black !important;
+}
+
+.danger{
+    color: red;
+}
+
+.header{
+    height: 100vh;
+}
+
+.my_carousel{
+    height: 100vh;
+}
+
+.myimg{
+    height: 100vh;
+}
+
+
+.our-container{
+    height: 100vh;
+}
+
+.list>li{
+    width: 32%;
+}
+
+.list{
+    display: flow-root;
+    width: 100%;
+}
+
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.fa-facebook,.fa-twitter{
+    font-size: 35px;
+}
